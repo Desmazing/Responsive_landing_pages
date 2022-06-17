@@ -114,6 +114,7 @@ button:hover{
     border-color: white;
     text-align: center;
     vertical-align: middle;
+    z-index: -1;
     position: relative;
 }
 .button_bottom{
@@ -125,7 +126,7 @@ button:hover{
     padding: 20px;
     width: 300px;
     box-shadow: 0 3px 10px rgb(0,0,0,0.4);
-    position:relative;
+    /* position:relative; */
     z-index: 0;
     animation: move 1s linear infinite alternate;
 }
@@ -140,6 +141,8 @@ button:hover{
 footer{
     background-color: hsl(192, 100%, 9%);
     color: white;
+    /* position: relative; */
+    z-index: -1;
 }
 .pfooter{
     float: none;
